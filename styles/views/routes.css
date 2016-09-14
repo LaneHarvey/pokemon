@@ -1,4 +1,4 @@
-.location-card {
+.route-card {
     display: flex;
     flex-direction: column;
     width: 75%;
@@ -8,17 +8,17 @@
 
 }
 
-.location-card img {
+.route-card img {
     width: 100%;
 }
 
-.location-inner-left {
+.route-inner-left {
     width: 100%;
     padding-top: 25px;
     text-align: center;
 }
 
-.location-inner-left h6 {
+.route-inner-left h6 {
     font-family: 'Arimo', sans-serif;
     margin-bottom: 15px;
     font-size: 1.5rem;
@@ -27,7 +27,7 @@
 
 }
 
-.location-inner-left h1 {
+.route-inner-left h1 {
     color: #59B5C7;
     margin-bottom: 25px;
     font-size: 2.5rem;
@@ -35,13 +35,13 @@
     text-transform: uppercase;
 }
 
-.location-inner-right {
+.route-inner-right {
     width: 100%;
     padding-top: 25px;
     text-align: center;
 }
 
-.location-inner-right h3 {
+.route-inner-right h3 {
     color: #000;
     width: 100%;
     margin: 0 auto 25px;
@@ -51,12 +51,12 @@
 
 }
 
-.location-inner-left p {
+.route-inner-left p {
     width: 90%;
     margin: auto;
 }
 
-.location-inner-right button {
+.route-inner-right button {
     width: 100%;
     padding: 12px;
     background: #4BACC1;
@@ -66,7 +66,7 @@
 }
 
 @media(min-width: 900px) {
-    .location-card {
+    .route-card {
         flex-direction: row;
         width: 100%;
         margin: 0 auto -3px;
@@ -74,17 +74,17 @@
         box-shadow: 0px 2px 4px 0px rgba(208,208,208,0.50);
     }
 
-    .location-inner-left {
+    .route-inner-left {
         width: 33%;
         padding-top: 25px;
         text-align: center;
     }
 
-    .location-inner-right {
+    .route-inner-right {
         width: 33%;
     }
 
-    .location-inner-right h3 {
+    .route-inner-right h3 {
         width: 80%;
         margin: 25px auto 25px;
         line-height: 1.3;
@@ -94,10 +94,10 @@
         width: 400px;
     }
 
-    .location-card img {
+    .route-card img {
         width: 100%;
     }
-    .location-inner-right button {
+    .route-inner-right button {
         width: 70%;
         margin: auto;
     }

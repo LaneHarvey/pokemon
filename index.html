@@ -13,11 +13,13 @@
 
     <link rel="stylesheet" href="styles/views/main.css">
     <link rel="stylesheet" href="styles/views/about.css">
-    <link rel="stylesheet" href="styles/views/adventurers.css">
-    <link rel="stylesheet" href="styles/views/locations.css">
-    <link rel="stylesheet" href="styles/views/packages.css">
+    <link rel="stylesheet" href="styles/views/trainers.css">
+    <link rel="stylesheet" href="styles/views/routes.css">
+    <link rel="stylesheet" href="styles/views/starters.css">
     <link rel="stylesheet" href="styles/views/contact.css">
     <link rel="stylesheet" href="styles/views/caught.css">
+    <link rel="stylesheet" href="styles/views/types.css">
+
 
 </head>
 
@@ -27,15 +29,15 @@
         <header>
             <nav>
                 <ul>
-                    <li><a ui-sref="locations">Pokemon</a></li>
-                    <li><a ui-sref="packages">Starters</a></li>
+                    <li><a ui-sref="routes">Pokemon</a></li>
+                    <li><a ui-sref="starters">Starters</a></li>
                     <li><a ui-sref="home"><img src="./img/pokeball.svg" alt="Pokemon Logo"></a></li>
-                    <li><a ui-sref="home">About</a></li>
-                    <li><a ui-sref="contact">Contact</a></li>
+                    <li><a ui-sref="types">Types</a></li>
+                    <li><a ui-sref="contact">Lab</a></li>
                 </ul>
             </nav>
         </header>
-        <h1 class="intro-text" ng-style="{'color':'blue'}">Be the very best!!</h1>
+        <h1 class="intro-text" ng-style="{'color':'white'}">Be the very best!!</h1>
     </section>
     <section class="bottom-page-container">
       <footer>
@@ -57,8 +59,8 @@
 
 <script src="./js/app.js"></script>
 <script src="./js/controllers/caughtCtrl.js" charset="utf-8"></script>
-<script src="./js/controllers/locationsCtrl.js" charset="utf-8"></script>
-<script src="./js/controllers/packagesCtrl.js" charset="utf-8"></script>
+<script src="./js/controllers/routesCtrl.js" charset="utf-8"></script>
+<script src="./js/controllers/startersCtrl.js" charset="utf-8"></script>
 <script src="./js/services/mainService.js" charset="utf-8"></script>
 
 

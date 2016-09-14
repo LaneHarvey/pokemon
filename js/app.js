@@ -15,10 +15,10 @@ angular.module('pokeFinder', ['ui.router'])
                 parent:'home',
                 templateUrl: "../views/contact.html"
             })
-            .state('packages',{
-                url:'/packages',
-                templateUrl: "../views/packages.html",
-                controller: 'packagesCtrl',
+            .state('starters',{
+                url:'/starters',
+                templateUrl: "../views/starters.html",
+                controller: 'startersCtrl',
                 controllerAs: 'vm'
             })
             .state('caught',{
@@ -27,12 +27,16 @@ angular.module('pokeFinder', ['ui.router'])
                 controller: 'caughtCtrl',
                 controllerAs: 'vm'
             })
-            .state('locations',{
-                url:'/locations',
-                templateUrl: "../views/pokemon-locations.html",
-                controller: 'locationsCtrl',
+            .state('routes',{
+                url:'/routes',
+                templateUrl: "../views/pokemon-routes.html",
+                controller: 'routesCtrl',
                 controllerAs: 'vm'
-            });
+            })
+            .state('types',{
+                url:'/types',
+                templateUrl: "../views/types.html",
+              });
 
         $urlRouterProvider
             .otherwise('/');

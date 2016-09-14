@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<section class="routes-container">
+    <section class="route-card" ng-repeat="route in vm.routes">
+        <div class="image-container">
+            <img src="{{route.image}}" alt="">
+        </div>
+        <div class="route-inner-left">
+            <h6> {{route.pokemon}} </h6>
+            <h1>{{route.type}} </h1>
+            <h1>{{route.id}} </h1>
+        </div>
+        <div class="route-inner-right">
+            <button ui-sref="caught({id: route.id})">Choose your starter pokemon!</button>
+        </div>
+    </section>
+</section>

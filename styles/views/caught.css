@@ -7,12 +7,13 @@
     background-repeat: no-repeat;
     padding-top:25px;
     overflow: hidden;
+    color:white;
 }
 
 .caught-main-container h1 {
     font-size: 3rem;
     margin-bottom: 2rem;
-
+    color: white;
 }
 
 .caught-main-container img {

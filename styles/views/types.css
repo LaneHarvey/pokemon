@@ -1,0 +1,18 @@
+.types-main{
+  height: 240px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex direction: column;
+  font-weight: bold;
+}
+.fire-type{
+  color: red
+}
+.grass-type{
+  color: green
+}
+.water-type{
+  color: blue
+}

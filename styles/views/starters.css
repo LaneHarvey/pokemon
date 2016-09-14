@@ -1,20 +1,20 @@
-.packages-main {
+.starters-main {
     display: flex;
     flex-direction: column;
 }
 
-.package-card {
+.starter-card {
     width:100%;
     text-align: center;
     margin-bottom: 20px;
     box-shadow: 0px 2px 4px 0px rgba(208,208,208,0.50);
 }
 
-.package-card img {
+.starter-card img {
     width: 100%;
 }
 
-.package-card h6 {
+.starter-card h6 {
     font-family: 'Arimo', sans-serif;
     font-size: 24px;
     margin: 10px 0;
@@ -22,7 +22,7 @@
 
 }
 
-.package-header {
+.starter-header {
     color: #59B5C7;
     font-size: 2.5rem;
     font-weight: 700;
@@ -30,12 +30,12 @@
 
 }
 
-.package-card p {
+.starter-card p {
     width: 90%;
     margin: 0 auto 10px;
 }
 
-.package-card button {
+.starter-card button {
     background: #4BACC1;
     color: #FFF;
     width: 90%;
@@ -45,7 +45,7 @@
 
 }
 
-.package-card button.types {
+.starter-card button.types {
   border-radius: 6px;
   width: 25%;
   height: 10%;
@@ -53,34 +53,34 @@
 }
 
 @media(min-width: 800px) {
-    .packages-main {
+    .starters-main {
         flex-direction: row;
     }
 
-    .package-card {
+    .starter-card {
         padding-bottom: 20px;
     }
 
-    .package-card img {
+    .starter-card img {
         height: 260px;
     }
 
-    .package-header {
+    .starter-header {
         margin-bottom: 20px;
 
     }
 
-    .package-card h6 {
+    .starter-card h6 {
         margin: 20px 0;
 
     }
 
-    .package-card p {
+    .starter-card p {
         height: 95px;
 
     }
 
-    .package-card button {
+    .starter-card button {
       align-self: flex-end;
 
     }
