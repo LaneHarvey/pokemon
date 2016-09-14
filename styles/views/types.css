@@ -3,16 +3,33 @@
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex direction: column;
-  font-weight: bold;
+  justify-content: space-around;
+  font: 40px;
+  background: url(/img/types.jpg) center no-repeat;
+  background-color: red;
+
+}
+.types-main button{
+  border-radius: 20px;
 }
 .fire-type{
-  color: red
+  color: crimson;
+  font-size: 40px;
+  background-color: tomato;
+  font-weight: bold;
 }
 .grass-type{
-  color: green
+  color: green;
+  font-size: 40px;
+  background-color: lime;
+  font-weight: bold;
+
+
 }
 .water-type{
-  color: blue
+  color: blue;
+  font-size: 40px;
+  background-color: aqua;
+  font-weight: bold;
+
 }

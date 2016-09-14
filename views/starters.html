@@ -4,8 +4,8 @@
     <section class="starter-card" ng-repeat="starter in vm.starters">
         <img  src="{{starter.image}}">
         <h6> {{starter.pokemon}} </h6>
-        <button  class="types" ui-sref="types"><h1>{{starter.type}}</h1></button>
+        <div  class="types" ui-sref="types"><h1>{{starter.type}}</h1></div>
 
-        <button ui-sref="caught({id: starter.id})">Choose your starter</button>
+        <button ui-sref="caught({id: starter.id})">Pick Me!!</button>
     </section>
 </section>
